@@ -1,3 +1,7 @@
+/*
+Copyright ©️ 2021 3Mo_Steve.
+*/
+
 module.exports = class Vector3 {
     constructor(x, y, z) {
       let type = [typeof x, typeof y, typeof z].find(type => 'number' != type);
