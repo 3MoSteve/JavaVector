@@ -10,5 +10,11 @@ npm install vector3
 
 ## Usage
 ```js
-console.log("HI");
+const { Vector2, Vector3 } = require('javavector');
+//Vector3 3
+const MyVector3 = new Vector3(0, 1, 0);
+//Vector 2
+const MyVector2 = new Vector2(0, 2);
+
+//Install VisualStudioCode to see all the available functions.
 ```
